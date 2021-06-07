@@ -1,0 +1,16 @@
+package com.example.uni_project.ui.`in`
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class InViewModel : ViewModel() {
+
+    private val _text = MutableLiveData<String>().apply {
+        value = "This is home Fragment"
+    }
+
+    val text: LiveData<String> = _text
+
+
+}

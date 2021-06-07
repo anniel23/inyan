@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_in"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="@string/title_in"
+        />
+
+    <item
+        android:id="@+id/navigation_balance"
+        android:icon="@drawable/ic_baseline_spa_24"
+        android:title="@string/title_balance" />
+
+    <item
+        android:id="@+id/navigation_out"
+        android:icon="@drawable/ic_baseline_fitness_center_24"
+        android:title="@string/title_out" />
+
+</menu>

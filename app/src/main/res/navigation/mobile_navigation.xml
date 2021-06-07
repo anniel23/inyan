@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_balance">
+
+    <fragment
+        android:id="@+id/navigation_in"
+        android:name="com.example.uni_project.ui.in.InFragment"
+        android:label="@string/title_in"
+        tools:layout="@layout/fragment_in" />
+
+    <fragment
+        android:id="@+id/navigation_balance"
+        android:name="com.example.uni_project.ui.balance.BalanceFragment"
+        android:label="@string/title_balance"
+        tools:layout="@layout/fragment_balance" />
+
+    <fragment
+        android:id="@+id/navigation_out"
+        android:name="com.example.uni_project.ui.out.OutFragment"
+        android:label="@string/title_out"
+        tools:layout="@layout/fragment_out" />
+</navigation>

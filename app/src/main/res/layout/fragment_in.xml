@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название продукта"
+        android:inputType="text"
+        android:ems="10"
+        />
+    <EditText
+        android:layout_marginVertical="10dp"
+        android:id="@+id/kkal_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество калорий на 100 грамм"
+        android:inputType="number"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/kolvo"
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество граммов"
+        android:inputType="number"
+        android:ems="10"
+        />
+
+    <Button
+        android:id="@+id/addFood"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/main"
+        android:textColor="#ffffff"
+        android:text="Добавить " />
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Итого:"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textSumIn"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:text="0"
+                android:textSize="24dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="  ккал"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:layout_height="match_parent"
+                />
+    </LinearLayout>
+    <Button
+        android:id="@+id/clearFood"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/main"
+        android:textColor="#ffffff"
+        android:text="Очистить " />
+</LinearLayout>

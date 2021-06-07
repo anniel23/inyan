@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Норма калорий "
+        android:background="@color/main"
+        android:ems="10"
+        android:layout_marginVertical="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/norma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="1900"
+        />
+
+    <Button
+        android:id="@+id/buttonOst"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/main"
+        android:ems="10"
+        android:layout_marginVertical="10dp"
+        android:textColor="#ffffff"
+        android:text="Осталось до выполнения нормы " />
+
+    <TextView
+        android:id="@+id/ostatok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        app:srcCompat="@drawable/sym_yin_yang_static"/>
+</LinearLayout>
